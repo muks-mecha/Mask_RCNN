@@ -281,6 +281,7 @@ if __name__ == '__main__':
     # Parse command line arguments
     parser = argparse.ArgumentParser(
         description='Train Mask R-CNN to detect balloons.')
+    """
     parser.add_argument("command",
                         metavar="<command>",
                         help="'train' or 'splash'")
@@ -300,6 +301,7 @@ if __name__ == '__main__':
     parser.add_argument('--video', required=False,
                         metavar="path or URL to video",
                         help='Video to apply the color splash effect on')
+    """
     args = parser.parse_args()
 
     # Validate arguments
